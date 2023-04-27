@@ -1,0 +1,50 @@
+.img-style{
+   
+    border-radius: 50%;
+}
+/* set up the basic nav bar styles */
+.font{
+    font-style:oblique;
+    font-family: 'Bruno Ace', cursive;
+}
+div > h1{
+    font-family: 'Bruno Ace', cursive;
+    color: white;
+}
+.nav-link:hover {
+    color: #FFD700; /*change the color to your desired hover color*/
+  }
+.margin{
+    margin-left: 50px;
+}  
+  
+#navbar > header > div > ul > li.nav-item.dropdown > ul > li > a{
+    color: #4dbeeb;
+}
+.gradient-background {
+    background: linear-gradient(70deg, #2e4d31, #101611, #162916);
+    background-size: 180% 180%;
+    animation: gradient-animation 10s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .imagesize{
+    height: 50%;
+    width: 50%;
+  }
+  .flexbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

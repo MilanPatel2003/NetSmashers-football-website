@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Net_Smashers</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" 
+    crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap" rel="stylesheet">
+
+</head>
+<body class="bg-black fonth1">
+    <!--navbar-->
+    <section id="navbar">
+            <header class="p-3 nav">
+                <!--<div class="container">-->
+                  <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                    <img src="./ASSESTS/1.png" class="img-style" height="100" alt="netsmashers">
+            
+                    <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                      <li><a href="#navbar" class="nav-link px-2 text-white">Home</a></li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Shop
+                        </a>
+                        <ul class="dropdown-menu" style="background-color: black;">
+                          <li><a class="dropdown-item" href="#football">Football</a></li>
+                          <li><a class="dropdown-item" href="#shoes">Shoes/Studs</a></li>
+                          <li><a class="dropdown-item" href="#gloves">Gloves/Socks</a></li>  
+                          <li><a class="dropdown-item" href="#jersey">Jersey/Shorts</a></li>
+                         <!-- <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Combo Packs</a></li>-->
+                        </ul>
+                      </li>
+                      <li><a href="#" class="nav-link px-2 text-white">Category</a></li>
+                      <li><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
+                      <li><a href="#" class="nav-link px-2 text-white">About</a></li>
+                    </ul>
+            
+                    <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+                      <input type="search" class="form-control form-control-dark text-bg-light" placeholder="Search..."
+                       aria-label="Search">
+                    </form>
+            
+                    <div class="text-end">
+                      <button type="button" class="btn btn-outline-light me-2">Login</button>
+                      <button type="button" class="btn btn-outline-warning">Sign-up</button>
+                    </div>
+                  </div>
+                <!--</div>-->
+              </header>
+      
+    </section>
+    <!--INTRO-->
+    <section id="intro">
+        <div class="container mb-5">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./ASSESTS/football2.jpg" height="450" class="d-block w-100" alt="football">
+                    <div class="carousel-caption d-md-block">
+                        <h5 class="text-decoration-underline">FOOTBALL</h5>
+                        <p class="font"> the competitive edge with premium football equipment and apparel from our brand.</p>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./ASSESTS/gloves.jpg" height="450"  class="d-block w-100" alt="gloves">
+                    <div class="carousel-caption d-md-block">
+                        <h5 class="text-decoration-underline">GLOVES</h5>
+                        <p class="font">Get a Grip with Our Football Gloves. </p>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./ASSESTS/stud6.jpg"  height="450" class="d-block w-100" alt="stud">
+                    <div class="carousel-caption d-md-block">
+                        <h5 class="text-decoration-underline">BOOTS</h5>
+                        <p class="font">designed for maximum traction, support, and comfort.</p>
+                      </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    </section>
+
+
+    <section id="football">
+        <div class="container">
+            <h1 class="fonth1">FOOTBALLS</h1>
+
+            <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3">
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./ASSESTS/footballs/football1.avif" 
+                    height="200" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                      <h5 class="card-title">Adidas FC Bayern Munich Football (Red/White)</h5>
+                     
+                      <p class="card-text">$25.99</p>
+                      <a href="#" class="btn btn-success me-2">Buy Now</a>
+                      <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./ASSESTS/footballs/football2.avif" height="200" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                      <h5 class="card-title">Nike Pitch La Liga Football (Yellow/Purple)</h5>
+                      <p class="card-text">$33.99</p>
+                      <a href="#" class="btn btn-success me-2">Buy Now</a>
+                      <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./ASSESTS/footballs/football3.avif" height="200" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                      <h5 class="card-title">Nike Pitch Mercurial Veer Football (White)</h5>
+                      <p class="card-text">$50.99</p>
+                      <a href="#" class="btn btn-success me-2">Buy Now</a>
+                      <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                      <img src="./ASSESTS/footballs/football4.avif" height="200" class="card-img-top" alt="Product Image">
+                      <div class="card-body">
+                        <h5 class="card-title">Adidas Messi Q3 Football (White/Black/Blue)</h5>
+                        <p class="card-text">$30.99</p>
+                        <a href="#" class="btn btn-success me-2">Buy Now</a>
+                        <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
+                      </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                      <img src="./ASSESTS/footballs/football5.avif" height="200" class="card-img-top" alt="Product Image">
+                      <div class="card-body">
+                        <h5 class="card-title">Nike Strike La Liga Football (White/Orange)</h5>
+                        <p class="card-text">$36.99</p>
+                        <a href="#" class="btn btn-success me-2">Buy Now</a>
+                        <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
+                      </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                      <img src="./ASSESTS/footballs/football9.avif" height="200" class="card-img-top" alt="Product Image">
+                      <div class="card-body">
+                        <h5 class="card-title">Nike Neymar Strike Football (Blue/Orbit)</h5>
+                        <p class="card-text">$55.99</p>
+                        <a href="#" class="btn btn-success me-2">Buy Now</a>
+                        <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
+                      </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                      <img src="./ASSESTS/footballs/football7.avif" height="200" class="card-img-top" alt="Product Image">
+                      <div class="card-body">
+                        <h5 class="card-title">Nike FCB Supporters Football</h5>
+                        <p class="card-text">$43.99</p>
+                        <a href="#" class="btn btn-success me-2">Buy Now</a>
+                        <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
+                      </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                      <img src="./ASSESTS/footballs/football8.avif" height="200" class="card-img-top" alt="Product Image">
+                      <div class="card-body">
+                        <h5 class="card-title">Nike React Football (White/Black)</h5>
+                        <p class="card-text">$24.99</p>
+                        <a href="#" class="btn btn-success me-2">Buy Now</a>
+                        <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
+                      </div>
+                    </div>
+                </div>
+                
+            </div>  
+        </div>      
+    </section>
+
+    <!--shoes/studs-->
+    <section id="shoes">
+        <div class="container">
+            <h1 class="fonth1">Shoes/Studs</h1>
+            <div class="row row-cols-2  row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3">
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./ASSESTS/shoes/shoe1.jpg" 
+                    height="200" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                      <h5 class="card-title">nivea 502 Synthetic Pro encounter 6.0 Football Stud</h5>
+                      <p class="card-text">$34.99</p>
+                      <a href="#" class="btn btn-success me-2">Buy Now</a>
+                      <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./ASSESTS/shoes/shoe2.webp" height="200" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                      <h5 class="card-title">Nike Zoom Mercurial Superfly 9 Academy CR7 MG</h5>
+                      <p class="card-text">$389.99</p>
+                      <a href="#" class="btn btn-success me-2">Buy Now</a>
+                      <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./ASSESTS/shoes/shoe3.jpg" height="200" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                      <h5 class="card-title">Vector X Jaguar synethetic Football Shoes (Black-Orange)</h5>
+                      <p class="card-text">$78.99</p>
+                      <a href="#" class="btn btn-success me-2">Buy Now</a>
+                      <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                      <img src="./ASSESTS/shoes/shoe4.jpg" height="200" class="card-img-top" alt="Product Image">
+                      <div class="card-body">
+                        <h5 class="card-title">Nike Unisex-Adult Phantom Gt2 Elite Fg Running Shoe</h5>
+                        <p class="card-text">$452.99</p>
+                        <a href="#" class="btn btn-success me-2">Buy Now</a>
+                        <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
+                      </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                      <img src="./ASSESTS/shoes/shoe5.jpg" height="200" class="card-img-top" alt="Product Image">
+                      <div class="card-body">
+                        <h5 class="card-title">Puma Unisex-Child Spirit Iii Fg Jr Football Shoe</h5>
+                        <p class="card-text">$236.99</p>
+                        <a href="#" class="btn btn-success me-2">Buy Now</a>
+                        <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
+                      </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                      <img src="./ASSESTS/shoes/shoe6.jpg" height="200" class="card-img-top" alt="Product Image">
+                      <div class="card-body">
+                        <h5 class="card-title">Adidas Unisex Edge.3 Fg J Football Shoe</h5>
+                        <p class="card-text">$122.99</p>
+                        <a href="#" class="btn btn-success me-2">Buy Now</a>
+                        <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
+                      </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                      <img src="./ASSESTS/shoes/shoe7.webp" height="200" class="card-img-top" alt="Product Image">
+                      <div class="card-body">
+                        <h5 class="card-title">Nike Gripknit Phantom GX Elite Dynamic Fit AG By You</h5>
+                        <p class="card-text">$150.99</p>
+                        <a href="#" class="btn btn-success me-2">Buy Now</a>
+                        <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
+                      </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                      <img src="./ASSESTS/shoes/shoe8.jpg" height="200" class="card-img-top" alt="Product Image">
+                      <div class="card-body">
+                        <h5 class="card-title">Vector X NXG Football Studs (Green-Black)</h5>
+                        <p class="card-text">$50.99</p>
+                        <a href="#" class="btn btn-success me-2">Buy Now</a>
+                        <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
+                      </div>
+                    </div>
+                </div>
+                
+            </div>  
+        </div>      
+    </section>
+
+    <!--gloves-->
+    <section id="gloves">
+        <div class="container">
+            <h1 class="fonth1">Gloves/Socks</h1>
+
+            <div class="row row-cols-2  row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3">
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./ASSESTS/glovessocks/glove1.jpg" 
+                    height="200" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                      <h5 class="card-title">Nivia Ditmar Spider Goalkeeper Gloves</h5>
+                      <p class="card-text">$16.99</p>
+                      <a href="#" class="btn btn-success me-2">Buy Now</a>
+                      <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./ASSESTS/glovessocks/glove2.jpg" height="200" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                      <h5 class="card-title">Nivia Raptor Football Gloves(Black/Red, M)</h5>
+                      <p class="card-text">$19.99</p>
+                      <a href="#" class="btn btn-success me-2">Buy Now</a>
+                      <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./ASSESTS/glovessocks/glove3.jpg" height="200" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                      <h5 class="card-title">Kobo Champion Goalkeeper Gloves(Small)</h5>
+                      <p class="card-text">$9.99</p>
+                      <a href="#" class="btn btn-success me-2">Buy Now</a>
+                      <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                      <img src="./ASSESTS/glovessocks/glove4.jpg" height="200" class="card-img-top" alt="Product Image">
+                      <div class="card-body">
+                        <h5 class="card-title">Kobo ProContact Goalkeeping Gloves Yellow/Black</h5>
+                        <p class="card-text">$10.99</p>
+                        <a href="#" class="btn btn-success me-2">Buy Now</a>
+                        <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
+                      </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                      <img src="./ASSESTS/glovessocks/sock1.jpg" height="200" class="card-img-top" alt="Product Image">
+                      <div class="card-body">
+                        <h5 class="card-title">Nivia Lycra-Spandex Shin Guard+Sleeve M-Black</h5>
+                        <p class="card-text">$5.99</p>
+                        <a href="#" class="btn btn-success me-2">Buy Now</a>
+                        <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
+                      </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                      <img src="./ASSESTS/glovessocks/sock2.jpg" height="200" class="card-img-top" alt="Product Image">
+                      <div class="card-body">
+                        <h5 class="card-title">DeNovo Shin Guard+Poplin Socks</h5>
+                        <p class="card-text">$6.99</p>
+                        <a href="#" class="btn btn-success me-2">Buy Now</a>
+                        <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
+                      </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                      <img src="./ASSESTS/glovessocks/sock3.jpg" height="200" class="card-img-top" alt="Product Image">
+                      <div class="card-body">
+                        <h5 class="card-title">Nivia Dominator Football orange M</h5>
+                        <p class="card-text">$14.99</p>
+                        <a href="#" class="btn btn-success me-2">Buy Now</a>
+                        <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
+                      </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                      <img src="./ASSESTS/glovessocks/sock4.jpg" height="200" class="card-img-top" alt="Product Image">
+                      <div class="card-body">
+                        <h5 class="card-title">VectorX Shinguardwith Ankle Adjustable</h5>
+                        <p class="card-text">$8.99</p>
+                        <a href="#" class="btn btn-success me-2">Buy Now</a>
+                        <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
+                      </div>
+                    </div>
+                </div>
+                
+            </div>  
+        </div>      
+    </section>
+
+
+    <!--jersey/shorrts-->
+    <section id="jersey">
+        <div class="container">
+            <h1 class="fonth1">Jersey/Shorts</h1>
+
+            <div class="row row-cols-2  row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3">
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./ASSESTS/clothing/clothe1.avif" 
+                    height="200" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                      <h5 class="card-title">Nike Mens Academy Football Drill Top (Black/White)</h5>
+                      <p class="card-text">$16.99</p>
+                      <a href="#" class="btn btn-success me-2">Buy Now</a>
+                      <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./ASSESTS/clothing/clothe2.avif" height="200" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                      <h5 class="card-title">Adidas Muller Mens Football T-Shirt quick Dry (White)</h5>
+                      <p class="card-text">$19.99</p>
+                      <a href="#" class="btn btn-success me-2">Buy Now</a>
+                      <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./ASSESTS/clothing/clothe3.avif" height="200" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                      <h5 class="card-title">Nike FC Barcelona Home Jersey 2022 sweat dry technology</h5>
+                      <p class="card-text">$9.99</p>
+                      <a href="#" class="btn btn-success me-2">Buy Now</a>
+                      <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                      <img src="./ASSESTS/clothing/clothe4.avif" height="200" class="card-img-top" alt="Product Image">
+                      <div class="card-body">
+                        <h5 class="card-title">Nike Manchester United Home Jersey 2011/12 </h5>
+                        <p class="card-text">$10.99</p>
+                        <a href="#" class="btn btn-success me-2">Buy Now</a>
+                        <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
+                      </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                      <img src="./ASSESTS/clothing/short1.webp" height="200" class="card-img-top" alt="Product Image">
+                      <div class="card-body">
+                        <h5 class="card-title">Nike Dri-FIT Academy Men's Football Shorts</h5>
+                        <p class="card-text">$5.99</p>
+                        <a href="#" class="btn btn-success me-2">Buy Now</a>
+                        <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
+                      </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                      <img src="./ASSESTS/clothing/short2.webp" height="200" class="card-img-top" alt="Product Image">
+                      <div class="card-body">
+                        <h5 class="card-title">Paris Saint-Germain Jordan Dri-FIT Football Shorts</h5>
+                        <p class="card-text">$6.99</p>
+                        <a href="#" class="btn btn-success me-2">Buy Now</a>
+                        <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
+                      </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                      <img src="./ASSESTS/clothing/short3.webp" height="200" class="card-img-top" alt="Product Image">
+                      <div class="card-body">
+                        <h5 class="card-title">LiverpoolFC 2022/23 Men's Nike Dri-FIT Football Shorts</h5>
+                        <p class="card-text">$14.99</p>
+                        <a href="#" class="btn btn-success me-2">Buy Now</a>
+                        <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
+                      </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                      <img src="./ASSESTS/clothing/short4.webp" height="200" class="card-img-top" alt="Product Image">
+
+                      <div class="card-body">
+                        <h5 class="card-title">A.C. Milan 22/23 Replica Shorts Men</h5>
+                        <p class="card-text">$8.99</p>
+                        <a href="#" class="btn btn-success me-2">Buy Now</a>
+                        <a href="#" class="btn btn-outline-secondary">Add to Cart</a>
+                      </div>
+                    </div>
+                </div>
+                
+            </div>  
+        </div>      
+    </section>
+
+    <section id="footer">
+        <div class="container gradient-background">
+            <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 mt-5 border-top">
+              <div class="col mb-3">
+                <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+                  <img src="./ASSESTS/1.png" class="img-style" height="60" alt="logo">
+                </a>
+                <p class="text-white">© 2023</p>
+              </div>
+          
+          
+          
+              <div class="col mb-3">
+               
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="#navbar" class="nav-link p-0 text-warning">Home</a></li>
+                  <li class="nav-item mb-2"><a href="#football" class="nav-link p-0 text-warning">Shop</a></li>
+                  <li class="nav-item mb-2"><a href="https://www.instagram.com/milan_patel2734/" class="nav-link p-0 text-white"> 
+                    <img src="./ASSESTS/instagram.svg" alt="instagramlink"> Instagram</a></li>
+                  <li class="nav-item mb-2"><a href="https://youtube.com/@MilanPatel-ri7my" class="nav-link p-0 text-white"> 
+                    <img src="./ASSESTS/youtube.svg"alt="youtubelink"> YouTube</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">FAQs</a></li>
+                  <li class="nav-item mb-2"><a href="#intro" class="nav-link p-0 text-white">About</a></li>
+                </ul>
+              </div>
+          
+              
+              </div>
+            </footer>
+          </div>
+    </section>
+    
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" 
+    crossorigin="anonymous"></script>
+</body>
+</html>
